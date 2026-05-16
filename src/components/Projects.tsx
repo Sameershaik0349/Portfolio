@@ -1,23 +1,31 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { ChevronLeft, ChevronRight, Server, Layout } from 'lucide-react';
+import { ChevronLeft, ChevronRight, Server, Layout, Bot, Building2, Languages } from 'lucide-react';
 
 const projects = [
   {
-    id: 1,
-    title: 'Visitors Management System',
-    subtitle: 'Full Stack Development',
-    tech: ['ReactJS', 'Vite', 'JavaScript', 'Node.js', 'MongoDB', 'HTML', 'CSS'],
-    description: 'Features real-time visitor registration, check-in, check-out, and department tracking. A robust system designed for modern organizations.',
-    icon: <Layout size={40} color="#00d4ff" />
+    id: 3,
+    title: 'Jarvis AI Assistant',
+    subtitle: 'Voice-Controlled AI',
+    tech: ['Python', 'HTML', 'CSS', 'JavaScript', 'Web Speech API'],
+    description: 'A highly responsive, multi-tasking voice-activated AI assistant featuring a futuristic web-based HUD. Implements continuous listening and an intelligent execution engine.',
+    icon: <Bot size={40} color="#00ffcc" />
   },
   {
-    id: 2,
-    title: 'Real Estate Website',
-    subtitle: 'Full Stack Development',
-    tech: ['PHP', 'HTML', 'CSS', 'MySQL'],
-    description: 'Developed a dynamic, responsive site ensuring smooth front-end and back-end integration for property listings and management.',
-    icon: <Server size={40} color="#d800ff" />
+    id: 4,
+    title: 'Bank of Mahishmathi',
+    subtitle: 'Banking Web Application',
+    tech: ['Django', 'Python', 'HTML', 'CSS', 'JavaScript', 'SQLite'],
+    description: 'A Django-based banking web application featuring real-world banking rules, strong security practices, user dashboard with transaction history, and an interactive frontend.',
+    icon: <Building2 size={40} color="#ffcc00" />
+  },
+  {
+    id: 5,
+    title: 'AI Translator',
+    subtitle: 'Real-time Translation App',
+    tech: ['React', 'FastAPI', 'Python', 'deep-translator'],
+    description: 'A full-stack application for real-time text translation with language auto-detection, built using React for the frontend and FastAPI on the backend.',
+    icon: <Languages size={40} color="#ff3366" />
   }
 ];
 
