@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { ChevronLeft, ChevronRight, Server, Layout, Bot, Building2, Languages } from 'lucide-react';
+import { ChevronLeft, ChevronRight, Bot, Building2, Languages } from 'lucide-react';
 
 const projects = [
   {
